@@ -2,14 +2,15 @@
 {
     public class LoginModel
     {
-        public string UserName { get; set; }
-        public string Password { get; set; }
-        public string Name { get; set; }
-        public string AccLevel { get; set; }
-        public DateTime CreatedOn { get; set; }
-        public string ModifiedBy{ get; set; }
-        public DateTime ModifiedOn { get; set; }
-        public string Email { get; set; }
-        public string Active { get; set; }
+        public string userName { get; set; }
+        public string password { get; set; }
+        public string confirmPass { get; set; }
+        public string name { get; set; }
+        public string accLevel { get; set; }
+        public string createdOn { get; set; }
+        public string modifiedBy{ get; set; }
+        public string modifiedOn { get; set; }
+        public string email { get; set; }
+        public string active { get; set; }
     }
 }
